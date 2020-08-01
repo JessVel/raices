@@ -12,7 +12,7 @@ const Donar = () => {
         <Container>
           <Jumbotron className="text-center">
             <Card.Img src={donar} variant="top" className="icon" />
-            <h1>#QuieroDonar</h1>
+            <Card.Title>#QuieroDonar</Card.Title>
             <p>
               Ayudanos a ayudar, hace tu aporte con el monto que elijas desde
               Mercado Pago. Los habitantes de Merlo estarán muy agradecidos.

@@ -12,11 +12,15 @@ const ComoParticipar = () => {
     <>
       <div id="comoparticipar" className="section3 text-center">
         <h1 className="title">#ComoParticipar</h1>
-        <Row>
+        <Row
+          style={{ maxWidth: "100%" }}
+          className="d-flex align-items-stretch justify-content-center text-center"
+        >
           <Col
             xs={12}
             md={6}
             className="d-flex align-items-stretch justify-content-center text-center"
+            style={{ maxWidth: "100%" }}
           >
             <Card className="cards">
               <Card.Img variant="top" src={donar} />
@@ -27,7 +31,7 @@ const ComoParticipar = () => {
                   merenderos y sus responsables para que sepas donde
                   encontrarnos.
                 </Card.Text>
-                <button className="btn-btn">Conocenos aca</button>
+                <button className="btn-btn">Conocenos</button>
               </Card.Body>
             </Card>
           </Col>
@@ -36,6 +40,7 @@ const ComoParticipar = () => {
             xs={12}
             md={6}
             className="d-flex align-items-stretch justify-content-center text-center"
+            style={{ maxWidth: "100%" }}
           >
             <Card className="cards">
               <Card.Img variant="top" src={voluntario} />

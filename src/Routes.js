@@ -20,6 +20,9 @@ function Routes() {
   return (
     <Router>
       <Navbar />
+
+      <BotonArriba />
+
       <Switch>
         <Route
           exact
