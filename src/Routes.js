@@ -8,6 +8,12 @@ import Donar from "./componentes/Donar";
 import Contacto from "./componentes/Contacto";
 import Footer from "./componentes/Footer";
 import Nosotros from "./componentes/Nosotros";
+import Mapbox from "./componentes/Mapbox";
+import Coordinadores from "./componentes/Coordinadores";
+import Voluntarios from "./componentes/Voluntarios";
+import Comedores from "./componentes/Comedores";
+import Lista from "./componentes/Lista";
+import Tarjeta from "./componentes/Tarjeta";
 
 import {
   BrowserRouter as Router,
@@ -41,7 +47,31 @@ function Routes() {
           }
         />
 
-        <Route exact path="/nosotros" children={<Nosotros />} />
+        <Route
+          exact
+          path="/nosotros"
+          children={
+            <>
+              <Nosotros />
+              <Coordinadores />
+              <Voluntarios />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/comedores"
+          children={
+            <>
+              <Comedores />
+              <Lista />
+              <Tarjeta />
+              <Mapbox />
+              <Footer />
+            </>
+          }
+        />
       </Switch>
     </Router>
   );
