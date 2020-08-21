@@ -1,28 +1,33 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Row";
-import donar from "../images/donation.svg";
+import donar from "../images/bank.svg";
+import "../css/Donar.css";
+import wave from "../images/wave.svg";
 const Donar = () => {
   return (
     <>
-      <section id="donar" className="section2">
-        <h1 className="title"></h1>
+      <section id="donar" className="section2"></section>
+      <div className="donar">
         <Container>
-          <Jumbotron className="text-center">
-            <Card.Img src={donar} variant="top" className="icon" />
-            <Card.Title>#QuieroDonar</Card.Title>
-            <p>
-              Ayudanos a ayudar, hace tu aporte con el monto que elijas desde
-              Mercado Pago. Los habitantes de Merlo estarán muy agradecidos.
-            </p>
-            <p>
+          <h1 className="donar">#Donar</h1>
+          <Row>
+            <Col>
+              <img className="icon" src={donar} fluid></img>
+            </Col>
+
+            <Col>
+              <p className="donar1">
+                Ayudanos a ayudar, hace tu aporte con el monto que elijas desde
+                Mercado Pago. Los habitantes de Merlo estarán muy agradecidos.
+              </p>
               <button className="btn-btn">Donar</button>
-            </p>
-          </Jumbotron>
-        </Container>
-      </section>
+            </Col>
+          </Row>
+        </Container>{" "}
+      </div>
     </>
   );
 };

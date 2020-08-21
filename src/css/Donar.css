@@ -1,0 +1,34 @@
+div.donar {
+  background-image: url(../images/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+}
+div.row {
+  max-width: 100% !important;
+  margin: 0px;
+}
+.donar {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.icon {
+  width: 30em;
+  margin-bottom: 0px;
+  max-width: 90%;
+  filter: drop-shadow(1px 2px 3px rgba(121, 121, 121, 0.452));
+  position: relative;
+}
+p.donar1 {
+  position: relative;
+  margin-left: auto;
+}
+img.wave {
+  margin-top: 10px;
+  display: flex;
+  position: absolute;
+  position: static;
+}
