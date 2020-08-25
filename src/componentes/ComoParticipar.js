@@ -12,7 +12,7 @@ const ComoParticipar = () => {
   return (
     <>
       <div id="comoparticipar" className="section3 text-center">
-        <h1 className="title1">#ComoParticipar</h1>
+        <h1 className="titulo1">#ComoParticipar</h1>
         <Row
           style={{ maxWidth: "100%" }}
           className="d-flex align-items-stretch justify-content-center text-center"

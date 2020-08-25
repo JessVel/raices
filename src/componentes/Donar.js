@@ -5,24 +5,26 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Row";
 import donar from "../images/bank.svg";
 import "../css/Donar.css";
-import wave from "../images/wave.svg";
+
 const Donar = () => {
   return (
     <>
       <section id="donar" className="section2"></section>
       <div className="donar">
         <Container>
-          <h1 className="donar">#Donar</h1>
-          <Row>
+          <h1 className="titulo">#Donar</h1>
+          <Row xs={1} md={2}>
             <Col>
-              <img className="icon" src={donar} fluid></img>
+              <img src={donar} className="icon" fluid></img>
             </Col>
 
             <Col>
-              <p className="donar1">
-                Ayudanos a ayudar, hace tu aporte con el monto que elijas desde
-                Mercado Pago. Los habitantes de Merlo estarán muy agradecidos.
+              <p className="help">Ayudanos a ayudar!</p>
+              <p className="donar2">
+                Hacé tu donación con el monto que elijas desde Mercado Pago. Los
+                habitantes de Merlo estarán muy agradecidos.
               </p>
+
               <button className="btn-btn">Donar</button>
             </Col>
           </Row>

@@ -17,5 +17,29 @@ h1.title {
 em.raices {
   font-weight: bold;
   color: #31e197;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+.boton-about {
+  font-size: 110%;
+  width: 250px;
+  height: 50px;
+  margin: 15px;
+  color: #fff;
+  background-color: #0090ff;
+  border-color: #17b85a;
+  border-radius: 50px;
+  border-width: 0ch;
+  transition: all 0.3s ease-out;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.boton-about:hover {
+  width: 300px;
+  color: black;
+  background-color: #5fea88;
+  border-color: #5fea88;
+  text-align: center !important;
+  align-items: center !important;
 }
