@@ -8,16 +8,16 @@ import "../css/ComoParticipar.css";
 const ComoParticipar = () => {
   return (
     <>
-      <div id="comoparticipar" className="section3 text-center">
+      <Container id="comoparticipar" className="section3 text-center">
         <h1 className="titulo1">#ComoParticipar</h1>
-        <Row className="d-flex align-items-stretch justify-content-center text-center">
-          <Col
-            xs={12}
-            md={6}
-            className="d-flex align-items-stretch justify-content-center text-center"
+        <Row className="d-flex justify-content-center text-center">
+          <Col sm={12}
+           xl={6}
+           
+            className="d-flex justify-content-center text-center"
           >
             <Card className="cards">
-              <Card.Img variant="top" src={donar} />
+              <Card.Img variant="top" className="card-top" src={donar} />
               <Card.Body>
                 <Card.Title>Nuestros merenderos</Card.Title>
                 <Card.Text>
@@ -33,12 +33,12 @@ const ComoParticipar = () => {
           </Col>
 
           <Col
-            xs={12}
-            md={6}
-            className="d-flex align-items-stretch justify-content-center text-center"
+           sm={12}
+           xl={6}
+            className="d-flex justify-content-center text-center"
           >
-            <Card className="rounded cards">
-              <Card.Img variant="top" className="rounded" src={voluntario} />
+            <Card className="cards">
+              <Card.Img variant="top" className="card-top" src={voluntario} />
               <Card.Body>
                 <Card.Title>Quiero ser voluntario</Card.Title>
                 <Card.Text>
@@ -54,7 +54,7 @@ const ComoParticipar = () => {
             </Card>
           </Col>
         </Row>
-      </div>
+      </Container>
     </>
   );
 };

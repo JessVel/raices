@@ -78,6 +78,7 @@ function Routes() {
       </Switch>
       <Contacto />
       <Footer />
+      <Redirect to="/" />
     </Router>
   );
 }

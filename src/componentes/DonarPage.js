@@ -16,7 +16,7 @@ const DonarPage = () => {
 <p className="text-center text-muted"> Te redirigimos a Mercado Pago para que puedas realizar una transacción segura.</p>
 
 <Row className="my-5 text-center">
-    <Col> <a className="btn btn-link" href="#">Donar $50</a> </Col>
+    <Col> <a className="btn btn-link" href="https://mpago.la/1FBEy7J">Donar $50</a></Col>
     <Col><a className="btn btn-link"href="#">Donar $100</a></Col>
     
 </Row>

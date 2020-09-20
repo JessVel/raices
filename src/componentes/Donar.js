@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import donar from "../images/bank.svg";
 import "../css/Donar.css";
 
@@ -13,7 +13,7 @@ const Donar = () => {
          <div className="flex">
         
             <div>
-              <img src={donar} className="icon" fluid></img>
+              <img fluid src={donar} className="icon" alt="Donar" ></img>
             </div>
 
             <div>

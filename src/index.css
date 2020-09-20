@@ -27,10 +27,15 @@ p.raices {
 .cards {
   width: 25rem;
   box-shadow: 0px 2px 10px grey;
-  border: 2px;
+  border-radius: 10px !important;
   margin: 10px;
   justify-content: center;
   align-content: center;
+}
+
+.card-top{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
 .boton-about {
   width: 250px;
@@ -161,13 +166,14 @@ iframe {
   height: 450px;
 }
 
-footer {
+.footer {
   background-color: #17b85a;
   font-size: x-large;
   color: #fff;
   left: 0;
   bottom: 0;
   width: 100%;
+  position: relative;
 }
 
 .text-mutted {
@@ -198,12 +204,13 @@ footer {
   }
 
   .btn-btn {
+    width: 80%;
     padding: 15px 30px;
     margin-top: 10px;
   }
 
   .btn-tarjeta{
-    width: 60%;
+    width: 70%;
   }
 
   .flex {
@@ -225,6 +232,7 @@ footer {
 
   .btn-btn{
    width: 50%;
+   padding: 10px;
    font-size: x-large;
    text-align: center;
    justify-content: center;
@@ -239,5 +247,16 @@ footer {
   
   .btn-tarjeta{
     font-size: larger;
+  }
+}
+
+@media screen and (min-width:769px){
+  .btn-btn{
+    width: 300px;
+    padding: 20px;
+  }
+
+  .btn-link{
+    font-size: x-large !important;
   }
 }
