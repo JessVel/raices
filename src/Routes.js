@@ -8,18 +8,16 @@ import Donar from "./componentes/Donar";
 import Contacto from "./componentes/Contacto";
 import Footer from "./componentes/Footer";
 import Nosotros from "./componentes/Nosotros";
-import Mapbox from "./componentes/Mapbox";
+import DonarPage from "./componentes/DonarPage";
 import Coordinadores from "./componentes/Coordinadores";
 import Voluntarios from "./componentes/Voluntarios";
-import Comedores from "./componentes/Comedores";
 import Lista from "./componentes/Lista";
-import Tarjeta from "./componentes/Tarjeta";
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
+  Redirect,
 } from "react-router-dom";
 
 function Routes() {
@@ -37,12 +35,9 @@ function Routes() {
             <>
               <Slider />
               <About />
-
               <Donar />
               <ComoParticipar />
-              <Contacto />
-              <Footer />
-              <BotonArriba />
+              
             </>
           }
         />
@@ -55,24 +50,34 @@ function Routes() {
               <Nosotros />
               <Coordinadores />
               <Voluntarios />
-              <Footer />
+            
             </>
           }
         />
+
+        <Route
+          exact
+          path="/donar"
+          children={
+            <>
+              <DonarPage />
+            </>
+          }
+        />
+
         <Route
           exact
           path="/comedores"
           children={
             <>
-              <Comedores />
               <Lista />
-              <Tarjeta />
-              <Mapbox />
-              <Footer />
+
             </>
           }
         />
       </Switch>
+      <Contacto />
+      <Footer />
     </Router>
   );
 }

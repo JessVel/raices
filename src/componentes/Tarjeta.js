@@ -1,23 +1,24 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-/* import CardImg from 'react-bootstrap';
-import CardBody from 'react-bootstrap';
-import CardTitle from 'react-bootstrap';
-import CardText from 'react-bootstrap'; */
-import Button from "react-bootstrap/Button";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Voluntarios from "../images/voluntarios.jpg";
+import gracias from "../images/gracias.png";
 import "../index.css";
-const Tarjeta = (props) => {
+
+const Tarjeta = () => {
   return (
     <div>
-      <Card style={{ width: "25rem", marginRight: "top" }} className="nueva">
-        <Card.Img src={Voluntarios} alt="Voluntarios de Raices" />
-        <Card.Body>
-          <Button variant="primary" className="voluntario btn-btn">
-            DONAR!
-          </Button>
-        </Card.Body>
-      </Card>
+      <Container>
+        <h1 className="text-center title m-0">#Donar</h1>
+        <Row className="custom-row d-flex justify-content-center">
+          <img src={gracias} className="thanx" fluid></img>
+          <p className="help text-center">Muchas gracias por ayudarnos!</p>
+          <button className="btn-tarjeta text-center">
+          <Link to="donar">
+            Donar!
+          </Link></button>
+        </Row>
+      </Container>
     </div>
   );
 };

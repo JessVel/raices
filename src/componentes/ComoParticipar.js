@@ -1,9 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import voluntario from "../images/voluntariado.png";
 import donar from "../images/maps.png";
 import "../css/ComoParticipar.css";
@@ -13,15 +10,11 @@ const ComoParticipar = () => {
     <>
       <div id="comoparticipar" className="section3 text-center">
         <h1 className="titulo1">#ComoParticipar</h1>
-        <Row
-          style={{ maxWidth: "100%" }}
-          className="d-flex align-items-stretch justify-content-center text-center"
-        >
+        <Row className="d-flex align-items-stretch justify-content-center text-center">
           <Col
             xs={12}
             md={6}
             className="d-flex align-items-stretch justify-content-center text-center"
-            style={{ maxWidth: "100%" }}
           >
             <Card className="cards">
               <Card.Img variant="top" src={donar} />
@@ -32,7 +25,9 @@ const ComoParticipar = () => {
                   merenderos y sus responsables para que sepas donde
                   encontrarnos.
                 </Card.Text>
-                <button className="btn-btn">Conocenos</button>
+                <Link to="comedores">
+                  <button className="btn-tarjeta">Saber más...</button>
+                </Link>
               </Card.Body>
             </Card>
           </Col>
@@ -41,17 +36,20 @@ const ComoParticipar = () => {
             xs={12}
             md={6}
             className="d-flex align-items-stretch justify-content-center text-center"
-            style={{ maxWidth: "100%" }}
           >
-            <Card className="cards">
-              <Card.Img variant="top" src={voluntario} />
+            <Card className="rounded cards">
+              <Card.Img variant="top" className="rounded" src={voluntario} />
               <Card.Body>
                 <Card.Title>Quiero ser voluntario</Card.Title>
                 <Card.Text>
                   Queres formar parte y ayudarnos a mejorar la vida de los
                   merlenses? Contactanos llenando este formulario.
                 </Card.Text>
-                <button className="btn-btn">Formulario</button>
+                <button className="btn-tarjeta">
+                  <a href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit">
+                    Formulario
+                  </a>
+                </button>
               </Card.Body>
             </Card>
           </Col>

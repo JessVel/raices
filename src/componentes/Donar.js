@@ -1,8 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 import donar from "../images/bank.svg";
 import "../css/Donar.css";
 
@@ -10,26 +8,30 @@ const Donar = () => {
   return (
     <>
       <section id="donar" className="section2"></section>
-      <div className="donar">
-        <Container>
+        <Container fluid className="donar">
           <h1 className="titulo">#Donar</h1>
-          <Row xs={1} md={2}>
-            <Col>
+         <div className="flex">
+        
+            <div>
               <img src={donar} className="icon" fluid></img>
-            </Col>
+            </div>
 
-            <Col>
+            <div>
               <p className="help">Ayudanos a ayudar!</p>
               <p className="donar2">
                 Hacé tu donación con el monto que elijas desde Mercado Pago. Los
                 habitantes de Merlo estarán muy agradecidos.
               </p>
-
-              <button className="btn-btn">Donar</button>
-            </Col>
-          </Row>
-        </Container>{" "}
-      </div>
+             <button className="btn-btn mb-4">
+             <Link to="donar">
+                Donar!
+              </Link>
+             </button>
+    
+          </div>
+         </div>
+        </Container>
+      
     </>
   );
 };

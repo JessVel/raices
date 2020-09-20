@@ -2,24 +2,31 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import voluntarios from "../images/voluntarios.jpg";
 import "../index.css";
+
 const Voluntarios = () => {
   return (
     <>
-      <div>
-        <Container className="text-center">
-          <strong>
-            <center>
-              <h1>#Voluntarios</h1>
-            </center>
-          </strong>
+      <Container fluid className="text-center my-5 px-0">
+        <h1 className="title">#Voluntarios</h1>
 
-          <img src={voluntarios} alt="voluntarios raices" />
-          <center>
-            <h5>fulanito menganito, chirombito y chirombita</h5>
-          </center>
-          <button className="voluntario btn-btn">Quiero ser voluntario!</button>
-        </Container>
-      </div>
+        <img
+          fluid
+          src={voluntarios}
+          className="img-vol-coor w-100"
+          alt="voluntarios raices"
+        />
+
+        <p>fulanito menganito, chirombito y chirombita</p>
+
+        <button className="btn-btn">
+        <a
+         
+          href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
+        >
+          Quiero ser voluntario!
+        </a>
+        </button>
+      </Container>
     </>
   );
 };
