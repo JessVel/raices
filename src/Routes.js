@@ -5,7 +5,7 @@ import About from "./componentes/About";
 import ComoParticipar from "./componentes/ComoParticipar";
 import BotonArriba from "./componentes/BotonArriba";
 import Donar from "./componentes/Donar";
-import Contacto from "./componentes/Contacto";
+//import Contacto from "./componentes/Contacto";
 import Footer from "./componentes/Footer";
 import Nosotros from "./componentes/Nosotros";
 import DonarPage from "./componentes/DonarPage";
@@ -17,7 +17,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
+  Redirect
 } from "react-router-dom";
 
 function Routes() {
@@ -37,7 +37,6 @@ function Routes() {
               <About />
               <Donar />
               <ComoParticipar />
-              
             </>
           }
         />
@@ -50,7 +49,6 @@ function Routes() {
               <Nosotros />
               <Coordinadores />
               <Voluntarios />
-            
             </>
           }
         />
@@ -71,12 +69,11 @@ function Routes() {
           children={
             <>
               <Lista />
-
             </>
           }
         />
       </Switch>
-      <Contacto />
+
       <Footer />
       <Redirect to="/" />
     </Router>

@@ -18,13 +18,14 @@ const Voluntarios = () => {
 
         <p>fulanito menganito, chirombito y chirombita</p>
 
-        <button className="btn-btn">
-        <a
-         
-          href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
-        >
-          Quiero ser voluntario!
-        </a>
+        <button className="boton-about">
+          <a
+            href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Quiero ser voluntario!
+          </a>
         </button>
       </Container>
     </>

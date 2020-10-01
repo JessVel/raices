@@ -1,5 +1,4 @@
 div.donar {
-  background-color: #c7fce4;
   background-image: url(../images/wave1.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -17,7 +16,7 @@ h1.titulo {
   padding-top: 4%;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -28,7 +27,7 @@ h1.titulo {
 .icon {
   margin-top: auto;
   margin-left: auto;
-  width: 30em;
+  width: 40em;
   max-width: 90%;
   filter: drop-shadow(1px 2px 3px rgba(121, 121, 121, 0.452));
   position: relative;
@@ -37,15 +36,16 @@ p.help {
   font-size: 1.4rem;
   margin: auto auto 5px auto;
   letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 p.donar2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 20px;
+  width: 600px;
 }
 
 img.wave {
-  background-image: url();
   display: flex;
   position: absolute;
   position: static;
@@ -57,18 +57,45 @@ img.wave {
   padding: 0%;
 }
 
-a:hover{
+a:hover {
   color: #fff;
   text-decoration: none;
 }
+.btn-btn {
+  width: 250px;
+  font-size: larger;
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #0090ff;
+  border-color: #17b85a;
+  border-radius: 50px;
+  border-width: 0ch;
+  transition: all 0.3s ease-out;
+}
 
-@media screen and (max-width:411px){
+.btn-btn:hover {
+  text-align: center;
+  width: 290px;
+  color: #fff;
+  background-color: #25a1ff;
+  border-color: #5fea88;
+}
 
-  div.donar{
+@media screen and (max-width: 500px) {
+  div.donar {
     height: 600px;
   }
-  .flex{
+  .flex {
     display: flex;
     flex-direction: column;
+  }
+  p.donar2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .btn-btn {
+    padding: 20px 60px;
   }
 }
