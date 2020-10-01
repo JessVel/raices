@@ -33,7 +33,7 @@ const Nosotros = () => {
             solos.
           </span>
         </p>
-        <button className="boton-about">
+        <button className="btn-about">
           <Link to="donar">Donar!</Link>
         </button>
       </Container>
