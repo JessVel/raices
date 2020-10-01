@@ -1,7 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import { Link } from 'react-router-dom';
-import { Nav, Navbar }from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Nav, Navbar } from "react-bootstrap";
 import logo from "../images/logo.png";
 import "../index.css";
 
@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <>
       <Navbar className="sticky-top navbar" expand="lg">
-      <Link to={"/"} className="navbar-brand">
+        <Link to={"/"} className="navbar-brand">
           <img
             style={{ height: "70px" }}
             src={logo}
@@ -76,6 +76,8 @@ const NavBar = () => {
             </Link>
             <a
               href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
+              rel="noopener noreferrer"
+              target="_blank"
               className="nav-link"
               activeClass="active"
               spy={true}

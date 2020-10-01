@@ -6,10 +6,9 @@ body {
   margin-bottom: 40px;
   padding-right: 0px !important;
   padding: 0px !important;
-  background-color: #F6F7FA!important;
+  background-color: #f6f7fa !important;
   max-width: 100% !important;
 }
-
 
 .div {
   max-width: 100% !important;
@@ -33,70 +32,9 @@ p.raices {
   align-content: center;
 }
 
-.card-top{
+.card-top {
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
-}
-.boton-about {
-  width: 250px;
-  height: 50px;
-  margin: 15px;
-  color: #fff;
-  background-color: #0090ff;
-  border-color: #17b85a;
-  border-radius: 50px;
-  border-width: 0ch;
-  transition: all 0.3s ease-out;
-  text-align: center !important;
-  align-items: center !important;
-}
-
-.boton-about:hover {
-  width: 300px;
-  color: black;
-  background-color: #5fea88;
-  border-color: #5fea88;
-  text-align: center !important;
-  align-items: center !important;
-}
-
-.btn-btn {
-  width: 30%;
-  font-size: larger;
-  padding: 25px 70px;
-  color: #fff;
-  background-color: #0090ff;
-  border-color: #17b85a;
-  border-radius: 50px;
-  border-width: 0ch;
-  transition: all 0.3s ease-out;
-}
-
-.btn-btn:hover {
-  text-align: center;
- width: 40%;
-  color: #fff;
-  background-color: #5fea88;
-  border-color: #5fea88;
-}
-
-.btn-tarjeta {
-  width: 50%;
-  font-size: larger;
-  padding: 15px 30px;
-  color: #fff;
-  background-color: #0090ff;
-  border-color: #17b85a;
-  border-radius: 50px;
-  border: none;
-  transition: all 0.3s ease-out;
-}
-
-.btn-tarjeta:hover {
-  width: 70%;
-  color: #fff;
-  background-color: #5fea88;
-  border-color: #5fea88;
 }
 
 .boton-arriba {
@@ -121,7 +59,24 @@ p.raices {
   background-color: #0090ff;
   border-color: #5fea88;
 }
+.btn-tarjeta {
+  width: 50%;
+  font-size: larger;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #0090ff;
+  border-color: #17b85a;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s ease-out;
+}
 
+.btn-tarjeta:hover {
+  width: 70%;
+  color: #fff;
+  background-color: #5fea88;
+  border-color: #5fea88;
+}
 .section1 {
   align-items: center;
 }
@@ -137,41 +92,56 @@ p {
 }
 
 .section3 {
-  background-color:#F6F7FA;
+  background-color: #f6f7fa;
 }
 
-.section4 {
-  background-color: #F6F7FA;
+/*.section4 {
+  background-color: #f6f7fa;
+}*/
+.title-redes {
+  margin-top: 0px;
+  color: black;
+  font-size: 14px;
 }
-
 .redes {
+  width: 50px;
+  height: 50px;
   margin: 20px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  margin-bottom: 5px;
 }
 
-.redes:hover{
+.redes:hover {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
-
+p.footer.text-mutted.text-center.mb-0 {
+  margin-bottom: 45px;
+  color: black;
+}
 .thanx {
   width: 30em;
   max-width: 90%;
 }
 
-
 iframe {
   width: 400px;
   height: 450px;
 }
-
+.footer-title {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0%;
+}
 .footer {
-  background-color: #17b85a;
+  background-color: #31e197;
   font-size: x-large;
   color: #fff;
   left: 0;
-  bottom: 0;
+  padding: 1%;
+  margin-top: 1%;
+  bottom: 0px;
   width: 100%;
   position: relative;
 }
@@ -185,7 +155,7 @@ iframe {
   margin-bottom: 10px;
 }
 
-.nosotros{
+.nosotros {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,8 +165,7 @@ iframe {
 }
 
 @media screen and (max-width: 411px) {
-
-  p.description{
+  p.description {
     font-size: 16px;
   }
   .img-vol-coor {
@@ -209,7 +178,7 @@ iframe {
     margin-top: 10px;
   }
 
-  .btn-tarjeta{
+  .btn-tarjeta {
     width: 70%;
   }
 
@@ -225,38 +194,36 @@ iframe {
     margin: 0 auto;
     padding: 0;
   }
-
 }
 
-@media screen and (min-width:412px)and (max-width:768px){
-
-  .btn-btn{
-   width: 50%;
-   padding: 10px;
-   font-size: x-large;
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   align-self: center;
+@media screen and (min-width: 412px) and (max-width: 768px) {
+  .btn-btn {
+    width: 50%;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
   }
 
-  .boton-arriba{
+  .boton-arriba {
     width: 70px;
     height: 70px;
   }
-  
-  .btn-tarjeta{
+
+  .btn-tarjeta {
     font-size: larger;
   }
 }
 
-@media screen and (min-width:769px){
-  .btn-btn{
+@media screen and (min-width: 769px) {
+  .btn-btn {
     width: 300px;
     padding: 20px;
   }
 
-  .btn-link{
+  .btn-link {
     font-size: x-large !important;
   }
 }
