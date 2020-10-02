@@ -21,9 +21,9 @@ const Donar = () => {
               Hacé tu donación con el monto que elijas desde Mercado Pago. Los
               habitantes de Merlo estarán muy agradecidos.
             </p>
-            <button className="btn-btn mb-4">
-              <Link to="/donar">Donar!</Link>
-            </button>
+            <Link to="/donar">
+              <button className="btn-btn mb-4">Donar!</button>
+            </Link>
           </div>
         </div>
       </Container>

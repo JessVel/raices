@@ -21,7 +21,7 @@ const About = () => {
           allá por el 2012, cuando se presentó como una lista para el centro de
           estudiantes que inculcara los valores de solidaridad.
         </p>
-        <Link to="nosotros">
+        <Link to="/nosotros">
           <button className="btn-about ">Saber más...</button>
         </Link>
       </Container>

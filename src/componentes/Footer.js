@@ -1,6 +1,6 @@
 import React from "react";
 import Contacto from "./Contacto";
-import { Col, Row } from "react-bootstrap";
+
 const Footer = () => {
   return (
     <div className="footer">

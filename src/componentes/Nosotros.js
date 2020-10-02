@@ -5,7 +5,7 @@ const Nosotros = () => {
   return (
     <>
       <Container id="nosotros" className="text-center nosotros">
-        <h1 className="title">#Nosotros</h1>
+        <h1 className="title-nosotros">#Nosotros</h1>
 
         <p className="description">
           <span> Raíces Merlenses </span>es un grupo de personas dispuestas a
@@ -34,7 +34,7 @@ const Nosotros = () => {
           </span>
         </p>
         <button className="btn-about">
-          <Link to="donar">Donar!</Link>
+          <Link to="/donar">Donar!</Link>
         </button>
       </Container>
     </>

@@ -84,6 +84,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   div.donar {
     height: 600px;
+    background-image: url(../images/wave-m.svg);
   }
   .flex {
     display: flex;

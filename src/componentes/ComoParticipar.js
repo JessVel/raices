@@ -22,7 +22,7 @@ const ComoParticipar = () => {
                 <Card.Body>
                   <Card.Title>Nuestros merenderos</Card.Title>
                   <Card.Text>
-                    Aca te dejamos un listado con la direccion de nuestros
+                    Acá te dejamos un listado con la dirección de nuestros
                     merenderos y sus responsables para que sepas donde
                     encontrarnos.
                   </Card.Text>
@@ -43,7 +43,7 @@ const ComoParticipar = () => {
                 <Card.Body>
                   <Card.Title>Quiero ser voluntario</Card.Title>
                   <Card.Text>
-                    Queres formar parte y ayudarnos a mejorar la vida de los
+                    Querés formar parte y ayudarnos a mejorar la vida de los
                     merlenses? Contactanos llenando este formulario.
                   </Card.Text>
                   <button className="btn-tarjeta">

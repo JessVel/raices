@@ -13,9 +13,8 @@ const Tarjeta = () => {
           <img fluid src={gracias} className="thanx" alt="Gracias"></img>
           <p className="help text-center">Muchas gracias por ayudarnos!</p>
           <button className="btn-tarjeta text-center">
-          <Link to="donar">
-            Donar!
-          </Link></button>
+            <Link to="/donar">Donar!</Link>
+          </button>
         </Row>
       </Container>
     </div>
