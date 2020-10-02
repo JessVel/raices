@@ -16,7 +16,7 @@ const Coordinadores = () => {
           alt="raices bichito de luz"
         />
 
-        <p>fulanito menganito, chirombito y chirombita</p>
+        {/*  <p>fulanito menganito, chirombito y chirombita</p>*/}
       </Container>
     </>
   );

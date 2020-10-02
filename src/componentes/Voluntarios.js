@@ -16,7 +16,7 @@ const Voluntarios = () => {
           alt="voluntarios raices"
         />
 
-        <p>fulanito menganito, chirombito y chirombita</p>
+        {/*   <p>fulanito menganito, chirombito y chirombita</p>*/}
 
         <button className="btn-volunteer">
           <a
