@@ -19,7 +19,6 @@ const Voluntarios = () => {
         {/*   <p>fulanito menganito, chirombito y chirombita</p>*/}
 
         <button className="btn-volunteer m-4 ">
-          {" "}
           <a
             href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
             rel="noopener noreferrer"
