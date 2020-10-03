@@ -12,13 +12,14 @@ const Voluntarios = () => {
         <img
           fluid
           src={voluntarios}
-          className="img-vol-coor w-100 m-4"
+          className="img-vol-coor w-100 "
           alt="voluntarios raices"
         />
         <br />
         {/*   <p>fulanito menganito, chirombito y chirombita</p>*/}
 
-        <button className="btn-volunteer">
+        <button className="btn-volunteer m-4 ">
+          {" "}
           <a
             href="https://docs.google.com/forms/d/1RpsRwaoy1V9PRCBjRleNEZ0vlMAEowSRi5MkSzgbUVg/edit"
             rel="noopener noreferrer"
