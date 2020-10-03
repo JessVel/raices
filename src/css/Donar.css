@@ -10,10 +10,10 @@ div.donar {
 h1.titulo {
   font-weight: bold;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 25px;
   margin-bottom: 20px;
   font-size: 3rem;
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .flex {
@@ -36,7 +36,8 @@ p.help {
   font-size: 1.4rem;
   margin: auto auto 5px auto;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 p.donar2 {
   font-size: 1.2rem;
