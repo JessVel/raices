@@ -12,10 +12,10 @@ const Voluntarios = () => {
         <img
           fluid
           src={voluntarios}
-          className="img-vol-coor w-100"
+          className="img-vol-coor w-100 m-4"
           alt="voluntarios raices"
         />
-
+        <br />
         {/*   <p>fulanito menganito, chirombito y chirombita</p>*/}
 
         <button className="btn-volunteer">
